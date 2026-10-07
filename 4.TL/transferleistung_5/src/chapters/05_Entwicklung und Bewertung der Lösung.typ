@@ -1,2 +1,0 @@
-= Synthese und Analyse
-
