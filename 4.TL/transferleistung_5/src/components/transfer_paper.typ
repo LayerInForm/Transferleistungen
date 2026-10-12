@@ -124,7 +124,7 @@
   if (appendix_content != none) {
     set heading(numbering: "A.1 ")
     counter(heading).update(0)
-    heading(heading_texts.appendix)
+    heading(numbering: none, heading_texts.appendix)
     appendix_content
   }
   
