@@ -1,2 +1,7 @@
-= Fazit und Ausblick
+= Zusammenfassung und Ausblick <zusammenfassung>
 
+// Seitenbudget: ca. 0,5 Seiten. Schließt die Klammer aus der Einleitung.
+
+Anlass der Arbeit war das Ziel, das auf Langdock basierende KI-Modell NOVA über Simplifier mit betrieblichen Systemen zu verbinden. Mithilfe von Literaturanalyse, Experteninterview und @poc wurde gezeigt, dass der Simplifier-MCP-Server Business-Object-Funktionen zwar über das @mcp bereitstellt, sich aber nicht direkt an Langdock anbinden lässt. Er läuft nur lokal und bietet stets alle Tools einschließlich schreibender und löschender an. Eine fertige Anbindung existiert nicht. Ein eigener, auf lesende Funktionen beschränkter Adapter funktionierte dagegen im @poc. Empfohlen wird daher eine selbst erstellte Anbindung, kurzfristig als benutzerdefinierte Integration in Langdock, langfristig gegebenenfalls als eigener MCP-Server.
+
+Offen bleiben der Nachweis im realen Zusammenspiel von Langdock und Simplifier, der Umgang mit echten SAP-Daten sowie eine vollständige Sicherheits- und Datenschutzprüfung. Auf längere Sicht ist auch denkbar, NOVA unter menschlicher Freigabe schreibende Vorgänge vorbereiten zu lassen, etwa das Anstoßen eines Workflows. Bietet der Hersteller künftig einen netzwerkfähigen MCP-Server mit einschränkbarem Funktionsumfang an, wäre die Bewertung neu vorzunehmen.
