@@ -6,7 +6,7 @@
 	citation_style: "../res/apa-with-accessed.csl",
 	"4",
 	"13920",
-	"Machbarkeitsanalyse der Nutzung von Simplifier als MCP-Server zur Bereitstellung von Funktionen für das unternehmensinterne KI-Modell NOVA",
+	"Machbarkeitsanalyse einer selbst zu entwickelnden MCP-Anbindung zwischen Simplifier und dem unternehmensinternen KI-Modell NOVA",
 	"Wirtschaftsinformatik, I24b",
 	appendix_content: include "chapters/99_appendix.typ",
 )

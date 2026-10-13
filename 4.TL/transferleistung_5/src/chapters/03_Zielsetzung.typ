@@ -6,7 +6,7 @@
 
 == Hauptziel
 
-Ausgehend von dem in @situationsanalyse herausgearbeiteten Defizit ist es Ziel der Transferleistung, die technische Machbarkeit zu untersuchen, Simplifier als MCP-Server zur Anbindung des unternehmensinternen KI-Modells NOVA einzusetzen. Auf Grundlage der Ergebnisse soll eine fundierte Bewertung erfolgen und eine Empfehlung für das weitere Vorgehen im Unternehmen abgeleitet werden.
+Ausgehend von dem in @situationsanalyse herausgearbeiteten Defizit ist es Ziel der Transferleistung, die technische Machbarkeit einer selbst zu entwickelnden MCP-Anbindung zwischen Simplifier und dem unternehmensinternen KI-Modell NOVA zu untersuchen. Auf Grundlage der Ergebnisse soll eine fundierte Bewertung erfolgen und eine Empfehlung für das weitere Vorgehen im Unternehmen abgeleitet werden.
 
 == Teilziele
 
@@ -31,10 +31,10 @@ Das Hauptziel wird in fünf Teilziele differenziert. Um die spätere Bewertung z
 
 Zwischen den Teilzielen bestehen überwiegend komplementäre Beziehungen. So setzt die Handlungsempfehlung (TZ5) die Ergebnisse der übrigen Teilziele voraus, und die Erprobung im @poc (TZ2) liefert zugleich Erkenntnisse zu Voraussetzungen (TZ1) und Einschränkungen (TZ3).
 
-Ein Zielkonflikt besteht zwischen TZ2 und TZ4. Je mehr Funktionen NOVA im @poc zur Verfügung gestellt werden, desto aussagekräftiger ist zwar der Nachweis der Anbindung, desto größer ist aber auch die potenzielle Angriffs- und Fehlerfläche. Dieser Konflikt wird zugunsten der Sicherheit aufgelöst: Im @poc werden ausschließlich lesende Funktionen in einer Testumgebung bereitgestellt. Schreibende Zugriffe auf betriebliche Systeme werden nicht erprobt, sondern nur im Rahmen von TZ4 analytisch betrachtet.
+Ein Zielkonflikt besteht zwischen TZ2 und TZ4. Je mehr Funktionen NOVA im geplanten @poc zur Verfügung gestellt werden, desto aussagekräftiger wäre der Nachweis der Anbindung, desto größer wäre aber auch die potenzielle Angriffs- und Fehlerfläche. Dieser Konflikt wird zugunsten der Sicherheit aufgelöst: Für eine spätere praktische Erprobung sind ausschließlich lesende Funktionen in einer Testumgebung vorzusehen. Schreibende Zugriffe auf betriebliche Systeme werden nicht erprobt, sondern nur im Rahmen von TZ4 analytisch betrachtet.
 
 Die Priorisierung folgt der Unterscheidung in Muss- und Soll-Ziele. Muss-Ziele sind für eine belastbare Entscheidungsgrundlage zwingend erforderlich. Das Soll-Ziel TZ3 erhöht deren Aussagekraft, ist für eine Machbarkeitsaussage aber nicht zwingend vollständig zu erfüllen.
 
 == Abgrenzung
 
-Die Transferleistung untersucht die technische Machbarkeit anhand eines ausgewählten Anwendungsszenarios. Der @poc dient ausschließlich der Prüfung der grundsätzlichen Umsetzbarkeit und stellt kein produktiv einsetzbares System dar. Nicht Bestandteil der Arbeit sind die Überführung in den Produktivbetrieb, eine Wirtschaftlichkeitsbetrachtung sowie eine vollständige Sicherheits- oder Datenschutzprüfung. Sicherheitsaspekte werden in dem Umfang betrachtet, der für eine Machbarkeitsaussage erforderlich ist. Die Ergebnisse gelten für das untersuchte Szenario und die eingesetzten Versionen von NOVA und Simplifier; eine Übertragbarkeit auf andere Anwendungsfälle wird nicht vorausgesetzt.
+Die Transferleistung untersucht die technische Machbarkeit anhand eines abgegrenzten, konzeptionellen Anwendungsszenarios. Ein praktischer @poc ist für die weitere Prüfung erforderlich, wird im Rahmen dieser Arbeit jedoch nicht umgesetzt. Nicht Bestandteil der Arbeit sind die Überführung in den Produktivbetrieb, eine Wirtschaftlichkeitsbetrachtung sowie eine vollständige Sicherheits- oder Datenschutzprüfung. Sicherheitsaspekte werden im Umfang einer dokumentarischen Risikoanalyse betrachtet. Die Ergebnisse beruhen auf den ausgewerteten Informationsständen zu NOVA, Langdock und Simplifier; eine Übertragbarkeit auf andere Anwendungsfälle wird nicht vorausgesetzt.

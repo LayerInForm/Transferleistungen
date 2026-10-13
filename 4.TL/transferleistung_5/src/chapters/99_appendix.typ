@@ -1,6 +1,6 @@
 = Anonymisiertes Experteninterview
 
-#show heading.where(level: 3): set heading(numbering: none)
+#show heading.where(level: 2): set heading(numbering: none)
 
 #table(
 	columns: (30%, 70%),
@@ -22,9 +22,7 @@
 	*Hinweis:* Das Interview wurde anonymisiert und sprachlich geglättet. 
 ]
 
-== Interview
-
-=== 1. Warum soll ein LLM-Agent eingesetzt werden?
+== 1. Warum soll ein LLM-Agent eingesetzt werden?
 
 *Experte E1:* Im Unternehmen besteht der Bedarf, einen bestehenden IT-gestützten
 Arbeitsprozess besser zu unterstützen. Derzeit müssen Informationen aus unterschiedlichen
@@ -33,7 +31,7 @@ werden. Das verursacht zusätzlichen Aufwand, insbesondere bei wiederkehrenden T
 Ein LLM-Agent könnte hierbei unterstützen, wenn er nicht nur Texte erzeugt, sondern auch
 kontrolliert auf relevante Informationen und Funktionen zugreifen kann.
 
-=== 2. Welche Rolle könnte das Model Context Protocol bei einer solchen Lösung spielen?
+== 2. Welche Rolle könnte das Model Context Protocol bei einer solchen Lösung spielen?
 
 *Experte E1:* Das Model Context Protocol könnte dazu dienen, ein Large Language Model mit
 ausgewählten Werkzeugen und Datenquellen zu verbinden. Der Agent könnte dadurch
@@ -42,7 +40,7 @@ Aktionen ausführen oder Handlungsvorschläge erstellen. Wichtig ist, dass die v
 Werkzeuge, die verarbeiteten Informationen und die ausgeführten Aktionen nachvollziehbar und
 kontrollierbar bleiben.
 
-=== 3. Was soll der erste Prototyp können?
+== 3. Was soll der erste Prototyp können?
 
 *Experte E1:* Die Umsetzung sollte zunächst auf einen klar abgegrenzten Anwendungsfall
 beschränkt werden. Ein begrenzter Prototyp müsste zeigen, welche Aufgabe der Agent
@@ -51,7 +49,7 @@ Werkzeugen funktioniert. Dabei geht es nicht um eine vollständige produktive An
 sondern um einen Proof of Concept. Kritische Aktionen sollten außerdem nicht ohne
 menschliche Kontrolle ausgeführt werden.
 
-=== 4. Wie sollte die Untersuchung eines solchen Prototyps Ihrer Einschätzung nach ablaufen?
+== 4. Wie sollte die Untersuchung eines solchen Prototyps Ihrer Einschätzung nach ablaufen?
 
 *Experte E1:* Zunächst sollten die wissenschaftlichen und technischen Grundlagen aufgearbeitet
 und der konkrete betriebliche Anwendungsfall eingegrenzt werden. Anschließend kann eine
@@ -60,7 +58,7 @@ definierter Anwendungsfälle und Anforderungen geprüft werden. Dabei wäre zu b
 der Agent die vorgesehenen Informationen verarbeitet, geeignete Werkzeuge nutzt und
 erwartbare Ergebnisse oder Handlungsvorschläge erzeugt.
 
-=== 5. Welche Erkenntnisse und welchen Nutzen soll die Untersuchung für das Unternehmen liefern?
+== 5. Welche Erkenntnisse und welchen Nutzen soll die Untersuchung für das Unternehmen liefern?
 
 *Experte E1:* Die Untersuchung soll eine fundierte Entscheidungsgrundlage schaffen. Sie soll
 zeigen, ob ein MCP-basierter LLM-Agent technisch umsetzbar und für den betrachteten
